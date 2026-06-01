@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jessica Wang | Portfolio</title>
+  <meta name="description" content="Personal portfolio website for Jessica Wang.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/projectStyles.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">JW</a>
+    <nav class="nav">
+        <ul class="navlinks">
+            <li class="link"><a href="aboutMe.html">About Me</a></li>
+            <li class="link"><a href="myProjects.html">Projects</a></li>  
+            <a href="index.html#contact">Contact</a>  
+        </ul>
+    </nav>
+  </header>
+
+
+<main>
+
+<div class="carousel">
+  <!-- Left arrow -->
+  <button class="carousel-btn left-btn">&#10094;</button>
+
+  <!-- Slides -->
+
+  <!-- Arcadia website-->
+    <div class="slides">
+    <div class="slide active" id="booking-website">
+      <h3>Booking Website</h3>
+      <div>
+          <img src="images/Adventure Arcadia.png"> 
+      </div>
+      <p>A responsive platform for scheduling services online.</p>
+      <a class="btn btn-solid" href="https://crystal051104.github.io/bookingweb-project/" target="_blank">Live Demo</a>
+      <a class="btn btn-solid" href="https://github.com/Crystal051104/bookingweb-project" target="_blank">View Code</a>
+    </div>
+
+   <!-- Tableau Dashboard -->
+    <div class="slide" id="tableau-dashboard">
+      <h3>Tableau Dashboard</h3>
+      <div>
+          <img src="images/Tableau project.jpeg">
+      </div>
+      <p>A visual representation of data insights from Zara item sales.</p>
+    </div>
+
+
+   <!-- Figma Prototype -->
+    <div class="slide" id="figma-prototype">
+      <h3>Figma Prototype</h3>
+      <div class="figma-img-carousel">
+          <img src="images/Figma1.png" class="figma-img active">
+          <img src="images/Figma2.png" class="figma-img">
+          <img src="images/Figma3.png" class="figma-img">
+          <img src="images/Figma4.png" class="figma-img">
+          <img src="images/Figma5.png" class="figma-img">
+      </div>
+      <p>Image carousel for Figma prototype.</p>
+    </div>
+    
+  <!-- SYEP Anniversary Video -->
+    <div class="slide" id="syep-video">
+      <h3>SYEP Anniversary Video</h3>
+      <div class="video-container">
+        <video controls> 
+          <source src="videos/SYEP THANK YOU VIDEO portfolio.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <p>A video project for the 60th anniversary of the Summer Youth Employment Program.</p>
+    </div>
+
+  
+    <!-- Butler Demo App -->
+     <div class="slide" id="butler-app">
+      <h3>Butler Demo App</h3>
+      <div class="butler-container">
+        <video controls> 
+          <source src="videos/Butler Demo App copy.MP4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <p>An app prototype created using loveable.ai for demonstrating the functionality of the Butler app.</p>
+    </div>
+
+
+
+  </div>
+  
+
+  <!-- Right arrow -->
+  <button class="carousel-btn right-btn">&#10095;</button>
+</div>
+
+</main>
+
+<script src="js/projectsSlides.js"></script>
+
+
+
+
+
+<footer class="site-footer">
+    <p>&copy; <span id="year"></span> Jessica Wang. All rights reserved.</p>
+</footer>
+
+</body>
+
+
+</html>
